@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Texter-Swastuv Solutions</title>
+
+<title>Texter-Swastuv Solutions | Serving Humanity</title>
+<meta name="description" content="Texter-Swastuv Solutions offers publishing, educational services, and innovative solutions. Serving Humanity.">
 
 <style>
 body {
@@ -15,23 +17,31 @@ body {
 /* Navbar */
 nav {
     background: #0a3d62;
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -66,11 +76,28 @@ section {
     margin-top: 10px;
 }
 
-/* Content sections */
+/* Section colors */
 #about { background: #f1f2f6; }
 #mission { background: #dff9fb; }
-#join { background: #f6e58d; }
+#services { background: #f6e58d; }
+#join { background: #f9ca24; }
 #contact { background: #c7ecee; }
+
+/* Content */
+h2 {
+    text-align: center;
+}
+
+p, ul {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: square;
+}
 
 /* Footer */
 footer {
@@ -85,14 +112,16 @@ footer {
 
 <body>
 
-<!-- Navigation -->
+<!-- Navbar -->
 <nav>
+    <div class="logo">TSS</div>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
-        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#join">Join Us</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -100,16 +129,16 @@ footer {
 <section id="home">
     <h1>Texter-Swastuv Solutions</h1>
     <p class="tagline">Serving Humanity</p>
-    <p>We provide services in publishing, educational support, and general solutions.</p>
+    <p>Empowering Publishing, Education, and Innovative Solutions for a Better Tomorrow.</p>
 </section>
 
-<!-- About Us -->
+<!-- About -->
 <section id="about">
     <h2>About Us</h2>
     <p>
-        Texter-Swastuv Solutions is dedicated to delivering high-quality services in publishing, 
-        educational support, and innovative general solutions. We aim to empower individuals and 
-        organizations through knowledge, creativity, and general logistic solutions.
+        Texter-Swastuv Solutions is a multidisciplinary service platform focused on publishing, 
+        educational services, and innovative problem-solving. We aim to support students, researchers, 
+        and organizations through reliable, accessible, and high-quality solutions.
     </p>
 </section>
 
@@ -118,12 +147,23 @@ footer {
     <h2>Our Mission</h2>
     <p>
         Our mission is to serve humanity by providing accessible and impactful services in publishing 
-        , education and services in general sectors. We strive to bridge gaps in knowledge and offer reliable solutions that enhance 
-        learning and productivity.
+        and education. We strive to bridge knowledge gaps and deliver solutions that enhance learning, 
+        research, and productivity across diverse domains.
     </p>
 </section>
 
-<!-- Join Us -->
+<!-- Services -->
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Research & Academic Publishing Support</li>
+        <li>Educational Content Development</li>
+        <li>Workshops & Training Programs</li>
+        <li>General Consultancy & Solutions</li>
+    </ul>
+</section>
+
+<!-- Join -->
 <section id="join">
     <h2>Join Us</h2>
     <p>
@@ -136,12 +176,13 @@ footer {
 <!-- Contact -->
 <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: textersolutions@gmail.com</p>
+    <p>Email: <a href="mailto:textersolutions@gmail.com">textersolutions@gmail.com</a></p>
+    <p>Location: Prayagraj, India</p>
 </section>
 
 <!-- Footer -->
 <footer>
-    <p>© 2026 Texter-Swastuv Solutions, India. | Serving Humanity</p>
+    <p>© 2026 Texter-Swastuv Solutions | Serving Humanity</p>
 </footer>
 
 </body>
