@@ -56,24 +56,36 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-    padding: 100px 20px;
-    min-height: 100vh;
+    padding: 70px 20px;   /* reduced spacing */
 }
 
-/* Hero */
+/* Hero section (only this stays full height) */
 #home {
+    min-height: 100vh;
     background: linear-gradient(to right, #1e90ff, #00b894);
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#home h1 {
-    font-size: 40px;
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.tagline {
-    font-size: 20px;
-    margin-top: 10px;
+/* Content */
+p, ul {
+    max-width: 800px;
+    margin: 10px auto;   /* reduced gap */
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 /* Section colors */
@@ -83,26 +95,10 @@ section {
 #join { background: #f9ca24; }
 #contact { background: #c7ecee; }
 
-/* Content */
-h2 {
-    text-align: center;
-}
-
-p, ul {
-    max-width: 800px;
-    margin: 10px auto;
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-ul {
-    list-style: square;
-}
-
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     background: #0a3d62;
     color: white;
 }
